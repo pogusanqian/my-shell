@@ -6,9 +6,9 @@ const iconv = require('iconv-lite');
 
 const argv = minimist(process.argv.slice(2), {
   default: {
-    path: 'D:/GWare/TodyStudy.txt'
+    path: 'D:/GWare/TodayStudy.txt'
   }
-})
+});
 
 const replaceConfigMap = new Map([
   ['，', ', '],
